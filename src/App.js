@@ -68,22 +68,22 @@ function App() {
         <h2>Current Location: Gale Crater</h2>
         <div className="first-info-block">
           <h1>Sol: {sol}</h1>
-          <h1>Max Temp: {max_temp_C}°C</h1>
+          <h1>Max-Temp: {max_temp_C}°C<img className="exclamation-img" src={require("./temp-high.png")}/></h1>
         </div>
         <div className="first-info-block">
           <h1>Date on Earth: {date_recorded}</h1>
-          <h1>Min Temp: {min_temp_C}°C</h1>
+          <h1>Min-Temp: {min_temp_C}°C<img className="exclamation-img" src={require("./temp-low.png")}/></h1>
         </div>
         <div className="second-info-block">
           <h1>Season: {season}</h1>
-          <h1>UV Index: {uvindex}</h1>
+          <h1>UV Index: {uvindex}<img className="uv-img" src={require("./exclamation-mild.png")}/></h1>
         </div>
         <div className="third-info-block">
           <h1>Pressure: {pressure}</h1>
-          <h1>Sunrise: {sunrise}</h1>
+          <h1>Sunrise: {sunrise}<img className="sun-img" src={require("./sunrise.png")}/></h1>
         </div>
         <div className="fourth-info-block">
-          <h1>Sunset: {sunset}</h1>
+          <h1>Sunset: {sunset}<img className="sun-img" src={require("./sunset.png")}/></h1>
         </div>
       </div>
     </div>
