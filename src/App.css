@@ -21,11 +21,15 @@ html {
 .header textarea {
   margin-top: 35px;
   height: 50px;
+  border-radius: 10px;
+  resize: none;
 }
 
 .header button {
   margin-top: 35px;
   height: 56px;
+  border-radius: 10px;
+  display: none;
 }
 
 .header h1 {
