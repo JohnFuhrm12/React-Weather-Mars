@@ -41,7 +41,7 @@ function App() {
     const [thirdphoto, setThirdPhoto] = useState("");
 
     // NASA API Key
-    const API_KEY = 'WLNNnD47PaAnK5I785X5RHzBo4iPNtaHFdRZRKU9';
+    const API_KEY = 'G7IbDTpdNAZ3wjVFOGFXAvQS3CaoCoRVzjf899S5';
 
     // Get 3 Photo URL's from Curiosity for Sol 3423 (Latest Sol for API Used)
     axios.get(`https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=3423&api_key=${API_KEY}`).then(

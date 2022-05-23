@@ -19,7 +19,8 @@ html {
 
 .header {
   display: flex;
-  margin-left: 390px;
+  margin-left: 25%;
+  margin-right: 25%;
   margin-bottom: 0px;
 }
 
@@ -162,4 +163,84 @@ html {
   margin-top: 5px;
   margin-left: 0px;
   margin-right: 50px;
+}
+
+@media (max-width: 650px) {
+  .header {
+    margin: 0;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header h1 {
+    font-size: 30px;
+  }
+
+  .header textarea {
+    margin-top: 10px;
+    width: 120px;
+    height: 40px;
+  }
+
+  ::placeholder {
+    font-size: 12px;
+  }
+
+  .main-block {
+    width: 95%;
+    margin-left: 20px;
+    margin-right: 0px;
+  }
+
+  .img-block {
+    margin: 0 auto;
+    flex-direction: row;
+  }
+
+  .rover-image {
+    width: 150px;
+    height: 150px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .first-info-block h1 {
+    font-size: 20px;
+  }
+
+  .second-info-block h1 {
+    font-size: 20px;
+  }
+
+  .third-info-block h1 {
+    font-size: 20px;
+  }
+
+  .fourth-info-block h1 {
+    font-size: 20px;
+  }
+
+  .sun-img {
+    width: 45px;
+    height: 40px;
+    margin-bottom: -8px;
+  }
+  
+  .uv-img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-bottom: -5px;
+  }
+  
+  .exclamation-img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: -5px;
+  }
+
 }
