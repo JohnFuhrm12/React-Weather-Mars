@@ -13,16 +13,32 @@ html {
   align-items: center;
 }
 
+.content {
+  display: flex;
+}
+
 .header {
   display: flex;
-  margin-left: 350px;
+  margin-left: 390px;
+  margin-bottom: 0px;
 }
 
 .header textarea {
   margin-top: 35px;
-  height: 50px;
+  height: 40px;
+  width: 100px;
   border-radius: 10px;
   resize: none;
+  font-size: 30px;
+  padding: 8px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+  margin-bottom: 10px;
+}
+
+::placeholder {
+  font-size: 15px;
 }
 
 .header button {
@@ -30,6 +46,7 @@ html {
   height: 56px;
   border-radius: 10px;
   display: none;
+  margin-bottom: 10px;
 }
 
 .header h1 {
@@ -37,6 +54,7 @@ html {
   margin-right: 30px;
   color: white;
   font-size: 50px;
+  margin-bottom: 10px;
 }
 
 .main-block{
@@ -51,6 +69,7 @@ html {
   border-color: black;
   border-width: 3px;
   border-radius: 20px;
+  margin-right: 100px;
 }
 
 .first-info-block {
@@ -126,4 +145,21 @@ html {
   width: 40px;
   height: 40px;
   margin-bottom: -5px;
+}
+
+.img-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.rover-image {
+  width: 180px;
+  height: 180px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+  border-radius: 20px;
+  margin-top: 5px;
+  margin-left: 0px;
+  margin-right: 50px;
 }
