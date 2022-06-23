@@ -152,7 +152,7 @@ function App() {
             {current === true ? <h1>Max-Temp: {max_temp_C}°C<img className="exclamation-img" src={require("./temp-high.png")}/></h1> : <h1>Max-Temp: {max_temp_C_x}°C<img className="exclamation-img" src={require("./temp-high.png")}/></h1>}
           </div>
           <div className="first-info-block">
-            {current === true ? <h1>Date on Earth: {date_recorded}</h1> : <h1>Date on Earth: {date_recorded_x}</h1>}
+            {current === true ? <h1>Date on Earth: {date_recorded}</h1> : <h1>Earth Date: {date_recorded_x}</h1>}
             {current === true ? <h1>Min-Temp: {min_temp_C}°C<img className="exclamation-img" src={require("./temp-low.png")}/></h1> : <h1>Min-Temp: {min_temp_C_x}°C<img className="exclamation-img" src={require("./temp-low.png")}/></h1> }
           </div>
           <div className="second-info-block">

@@ -176,12 +176,14 @@ html {
   }
 
   .header h1 {
-    font-size: 30px;
+    font-size: 22px;
+    margin-right: 5px;
   }
 
   .header textarea {
-    margin-top: 10px;
-    width: 120px;
+    margin-top: 5px;
+    margin-right: 20px;
+    width: 70px;
     height: 40px;
   }
 
@@ -190,9 +192,16 @@ html {
   }
 
   .main-block {
-    width: 95%;
-    margin-left: 20px;
-    margin-right: 0px;
+    width: 380px;
+    margin: 0 auto;
+  }
+
+  .main-block h1 {
+    font-size: 22px;
+  }
+
+  .main-block h2 {
+    font-size: 18px;
   }
 
   .img-block {
@@ -201,32 +210,34 @@ html {
   }
 
   .rover-image {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     margin-top: 5px;
     margin-left: 5px;
     margin-right: 5px;
   }
 
   .first-info-block h1 {
-    font-size: 20px;
+    font-size: 17px;
+    padding: 8px;
+    padding-bottom: 10px;
   }
 
   .second-info-block h1 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .third-info-block h1 {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .fourth-info-block h1 {
-    font-size: 20px;
+    font-size: 17px;
   }
 
   .sun-img {
-    width: 45px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     margin-bottom: -8px;
   }
   
